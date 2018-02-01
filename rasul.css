@@ -62,7 +62,7 @@ nav ul li a{
 .mid_side{
 	width: 23%;
 	height: 100%;
-	margin: 0
+	margin: 15px .5%;
 	float: left;
 	padding: .5%;
 }
@@ -71,7 +71,7 @@ nav ul li a{
 	background: #202020;
 	width: 47%;
 	height: 100%;
-	margin: 15px 0 0 0;
+	margin: 0;
 	float: left;
 	padding: .5%;
 }
