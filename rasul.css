@@ -71,7 +71,7 @@ nav ul li a{
 	background: #202020;
 	width: 47%;
 	height: 100%;
-	margin: 15px .5%;
+	margin: 15px 0 0 0;
 	float: left;
 	padding: .5%;
 }
