@@ -1,72 +1,43 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-	<head>
-		<style>
-			html{
-				font-size: 10px;
-			}
-
-			body{
-				background-color: #202020;
-				text-align: center;
-			}
-
-			.top_bar, .bottom_bar {
-		        height: 30px;
-		    }
-
-			.div_middle{
-				margin: 0 auto;
-				margin-left: auto;
-				margin-right: auto;
-				width: 100%;
-				height: 100%;
-				background-color: #252525;
-			}
-
-			.div_middle_sub1{
-				width: auto;
-				height: auto;
-				margin: 0 auto;
-				padding: 10px;
-				position: relative;
-			}
-
-			p{
-				font-size: 1.5rem;
-				font-color: #ffffff;
-			}
-
-			.h1_01{
-				text-align: center;
-				margin-left: auto;
-				margin-right: auto;
-			}
-
-			.img01{
-				border-style: solid;
-				border-width: 1px;
-				border-color: white;
-				width: 300px;
-				height: 300px;
-			}
-
-		</style>
-	</head>
-	<body>
-		<div class="top_bar"></div>
+<head>
+	<style>
+	@import url("rasul.css");
+	</style>
+</head>
+<body>
+	
+	<header>
+		<nav>
+		<h1 id="title">Github Test</h1>
 		
-		<div class="div_middle">
-			<div class="div_middle_sub1">
-				<h1 class="h1_01">Github Test</h1>
-				<p>
-					Name: Terence Michael M. Rasul<br>
-					Nickname: Terence<br>
-				</p>
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">ABOUT</a></li>
+			<li><a href="#">CONTACT</a></li>
+		</ul>
+		</nav>
+	</header>
+	
+	<div id="showcase">
+		<div id="img01_div">
+		<img id="img01" src="rasul_photo01.jpg" alt= "Smiley face"></img>
+		</div>
+			
+		<div id="myName">
+		<div id="myFullname">
+		Terence Michael M. Rasul<br>
+		</div>
+		Terence
+		</div>
+	</div>
+	
+	<div class="mid">
+		<div class="mid_side">
 
-				<img class="img01" src ="https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.0-1/c60.0.240.240/p240x240/10393900_883616101652951_8149388248683634409_n.jpg?oh=6c71f2a4a9090578feb56174d6b2d2d1&oe=5AE7BC56">
-
-				<p>
+		</div>
+		<div class="mid_mid">	
+			<p>
 					<h3>About myself:<br></h3>
 					..........................<br><br>
 
@@ -90,10 +61,13 @@
 					<h3>Favorite Color:<br></h3>
 					Blue<br><br>
 
-				</p>
-			</div>
+			</p>
 		</div>
+		<div class="mid_side">
 
-		<div class="bottom_bar"></div>
-	</body>
+		</div>
+	</div>
+	
+	<footer></footer>
+</body>
 </html>

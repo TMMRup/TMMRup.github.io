@@ -1,0 +1,114 @@
+
+/*-----------General----------*/
+html, body{
+	height: 100%;
+}
+
+body{
+	background: #353535;
+	margin: 0;
+	color: white;
+}
+/*-----------top----------*/
+header{
+	background: #777777;
+	color: white;
+	padding: 20px 15px 0px 15px;
+	width: 100%
+}
+
+#title{
+	font-size: 2em;
+	margin: 0;
+	display: inline;
+}
+
+nav ul{
+	margin: 0;
+	display: inline;
+	padding: 0px 0px 0px 15px;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	background-color: #555555;
+	color: white;
+	padding: 5px 15px;
+}
+
+nav ul li a{
+	color: white;
+	margin: 0;
+	text-decoration: none;
+}
+
+#showcase{
+	background-image: url("showcase.jpeg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	margin: 0;
+
+}
+
+/*-----------in Body----------*/
+
+
+.mid{
+	height: 100%;
+}
+
+.mid_side{
+	width: 23%;
+	height: 100%;
+	margin: 15px .5%;
+	float: left;
+	padding: .5%;
+}
+
+.mid_mid{
+	background: #202020;
+	width: 47%;
+	height: 100%;
+	margin: 15px .5%;
+	float: left;
+	padding: .5%;
+}
+
+#img01_div{
+	width: 50%;
+	height: auto;
+	margin: 0 auto;
+	padding: 25vh 0 0 0;
+	position: relative;
+}
+
+#img01{
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 200px;
+	width: 200px;
+}
+
+#myName{
+	text-align: center;
+	font-family: Times New Roman", Times, serif;
+}
+
+#myFullname{
+	font-size: 1.5em;
+}
+
+.mid:after{
+	clear: both;
+	content: "";
+	display: table;
+}
+
+/*-----------footer----------*/
+footer{
+}
+
