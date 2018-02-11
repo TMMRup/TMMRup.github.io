@@ -48,6 +48,7 @@ nav ul li a{
 	background-size: cover;
 	background-position: center;
 	height: 50vh;
+	width: 100vw;
 	margin: 0;
 
 }
